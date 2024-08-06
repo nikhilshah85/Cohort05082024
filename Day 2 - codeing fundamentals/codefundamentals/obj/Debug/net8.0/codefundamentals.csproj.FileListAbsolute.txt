@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\bin\Debug\net8.0\codefundamentals.exe
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\bin\Debug\net8.0\codefundamentals.deps.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\bin\Debug\net8.0\codefundamentals.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\bin\Debug\net8.0\codefundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\bin\Debug\net8.0\codefundamentals.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\refint\codefundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\codefundamentals.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 2 - codeing fundamentals\codefundamentals\obj\Debug\net8.0\ref\codefundamentals.dll

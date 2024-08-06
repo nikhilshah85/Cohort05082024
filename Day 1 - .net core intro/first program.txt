@@ -1,0 +1,7 @@
+1. dotnet --version
+2. dotnet new console --name helloworld
+	   anytype of application you want to create (eg. mvc, WebAPI, winform,wpf,etc...)
+3. cd helloworld
+4. dotnet build (this will convert English written code to MSIL)
+5. dotnet run (show me the output, in the background code goes to CLR and msil gets converted into
+			machine language code, remember, machine language for every os is different)

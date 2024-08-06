@@ -1,0 +1,14 @@
+1. what is the command to create new console/mvc/react/restapi/ wpf project ?
+
+dotnet new mvc --name firstwebapp
+dotnet new console --name codefundamentals
+
+2. From where can you know which version the project is created on ?
+	A : from .csproj file from explorer
+
+3. Shortcut to comment the code - select the code
+	control + K + C
+   to uncomment
+	control + K + U
+
+		Version Management System - Control

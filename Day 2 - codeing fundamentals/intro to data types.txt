@@ -1,0 +1,16 @@
+Numeric data 
+	int - numbers  without decimals (1, 6, 2000, 5000, 20000 etc..) - consumes 4 byes of your ram 
+	double - for very big numbers - also for decimal values (6.7, 20.99)
+
+Alphabets
+	string - name, address, email address, designation, etc..
+	also supports alphanumeric values
+
+	string can store very big values - even a book
+
+	Alphanumeric values - EmpNo - MG109, car num MH48CK9595
+
+Bool - true or false, yes / no, 0 or 1
+
+custom data type - OOPS comes into picture - this is where you start to become a programmer
+

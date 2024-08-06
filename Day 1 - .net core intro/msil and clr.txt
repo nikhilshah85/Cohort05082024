@@ -1,0 +1,18 @@
+1. C# code - English  - 100 lines 
+
+---once you write the code -- 
+
+2.---you will need to compile it (test if there are any error)
+
+3. English code gets converted into a Microsoft language called as MSIL code 
+		Microsoft Intermediate Language code (BYTE code in Java)	
+		
+
+	my software can be written in 60+ languages
+
+	my software is based on 7 languages as of now	
+
+4. This language goes to CLR which is responsible for your program execution
+	program executes on an OS - windows OS, OS understands on Binary language (010101) - machine code			
+
+5. CLR will conver the MSIL code to machine code and you will see the output 

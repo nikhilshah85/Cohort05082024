@@ -1,0 +1,65 @@
+9 weeks coverage
+
+1. C# language with OOPS on .net core platform 
+2. SQL as a language on SQL Server 
+3. Entity Framework - C# communicating with SQL Server - perform Database operations
+4. GIT on GitHub
+5. ASP.Net MVC
+6. REST Services
+7. HTML, CSS and JavaScript
+8. Typescript
+9. React
+10. Docker 
+11. Devops
+12. AI fundamentals
+
+3 projects
+P0 - Console app - based on OOPS - Banking System - ATM machine like
+P1 - Web Based - ASP.Net MVC and REST API 
+P2 (group project) - ASP.Net MVC and REST API + React and DevOps 
+
+
+
+---------------------------------------
+Tools 
+
+VS Code 
+Git 
+SQL Server Management studio - SSMS
+Visual Studio 2022
+DevOps 
+CLI - command line interface
+Azure portal 
+AI code enabled tools for faster development - codeium 
+
+
+------------------------------
+You learn more by writing more - code, notes etc.
+Make notes, be expressive 
+Follow the notes, blogs, tutorials, prepare will for QC, quiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

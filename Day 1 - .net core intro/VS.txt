@@ -1,0 +1,44 @@
+For .net 
+
+Organizations / client had to 
+
+1. Buy windows OS - this is not free - Pay for the licence (why not Linux, ubuntu which are free )
+2. Visual studio is an excellent tool - Not free - pay licence (why not eclipse, it is free)
+3. Host / deploy application on Windows Server (web) - very costly - (why not on tomcat apache, 	glassfish, node - completly free) 
+4. things looks userfriendly,but in real you dont know what is going on in the background
+	so you pay Microsoft for support, customer care, tickets etc..
+
+--------
+thus u had, Java, Angular, React, Node, Mongo etc... free and with support etc..
+
+this was a loosing business for Microsoft
+
+additionally cloud came up, they had to stand the competition
+
+	Thus now they have open source, free development and hosting with .net core
+
+		free developmet on any OS - .Net core and VS Code (vs code works with commands)
+
+--we will create a new application, build it, run it with cli 
+
+
+
+
+	1.
+	Visual Studio (2019, 2021, 2022, 2024 etc) .. Paid and need licence )trial version - 180 days
+								also a community edition - free for 									lifetime - with limited features
+	2. 
+	Visual Studio Code - completely free - use command line for lot of things
+
+
+
+
+
+
+
+
+
+
+
+
+

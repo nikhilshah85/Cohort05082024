@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\helloworld\bin\Debug\net8.0\helloworld.exe
+C:\Users\nikhi\OneDrive\Desktop\helloworld\bin\Debug\net8.0\helloworld.deps.json
+C:\Users\nikhi\OneDrive\Desktop\helloworld\bin\Debug\net8.0\helloworld.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\helloworld\bin\Debug\net8.0\helloworld.dll
+C:\Users\nikhi\OneDrive\Desktop\helloworld\bin\Debug\net8.0\helloworld.pdb
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.dll
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\refint\helloworld.dll
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.pdb
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\helloworld.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\helloworld\obj\Debug\net8.0\ref\helloworld.dll

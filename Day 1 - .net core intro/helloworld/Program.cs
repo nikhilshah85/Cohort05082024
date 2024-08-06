@@ -1,0 +1,51 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Welcome to my very first .Net core Program");
+Console.WriteLine("My Name is Nikhil and I am going to write super awsome programs");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
