@@ -1,0 +1,16 @@
+1. Created a new git account on GitHub
+2. downloaded and installed git software for our OS
+3. We will create a new Repository on GitHub - Cohort05082024
+4. We Will clone (map) this repository with our machine
+	how ?
+	command 
+	git clone https://github.com/nikhilshah85/Cohort05082024.git
+5. I will put my code in the new folder that got created with the above command
+6. will fire certain git commands to send all the files and folders to git repo accont
+	git add . 
+	git commit -m "Some meaningful message"
+	git push
+
+-----------------
+on your machine - go to terminal and from terminal point to the repo folder which you got in step 4
+	git pull
