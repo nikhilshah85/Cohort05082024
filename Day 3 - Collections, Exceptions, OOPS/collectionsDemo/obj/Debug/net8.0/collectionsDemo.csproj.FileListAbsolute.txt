@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\bin\Debug\net8.0\collectionsDemo.exe
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\bin\Debug\net8.0\collectionsDemo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\bin\Debug\net8.0\collectionsDemo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\bin\Debug\net8.0\collectionsDemo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\bin\Debug\net8.0\collectionsDemo.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\refint\collectionsDemo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\collectionsDemo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\collectionsDemo\obj\Debug\net8.0\ref\collectionsDemo.dll

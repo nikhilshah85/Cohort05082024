@@ -1,0 +1,129 @@
+Collection 
+
+we learned data types
+
+	string guestName = "Alex";
+	       guestName = "Maria"; 
+
+a variable can hold only 1 value at a time, as soon as u pass a new value, previous values gets overridden
+
+lets say we want to create a program to store 20 name of our guest - meetings, parties, events etc..
+
+---------------------------------------------------------------------------------
+
+
+
+Problem:
+Program needs to store 200 values
+	also needs to sort them in asc or desc
+	also need to filter the data from them (search)
+	do a count, sum, min, max, average of them (in case of of numeric values) 
+
+variable can store only 1 value at a time, which does not solve the above problem
+
+To solve this we have collections - there are different types of collections to be used for different purpose
+ there are 4 types of collection 
+
+1. Array
+2. ArrayList- reference type - 
+	--they are also called as generic collection - they were introduced in .net 2.0 and they give 
+		better performance
+3. List - value type dynamic collection - need to know the type
+4. Dictionary - key and a value pair
+
+----------------------------
+Array - the oldest form of collection, since c and c++
+	you can decide on this collection based on below factors
+	a. when you know the amount of values to be stored (eg. 10, 15, or 3 or 5) 
+						eg. to store the name of all the particapants from 								cohort08052024
+	b. when you know the type of data to be stored - string in above example
+
+	we use [] to declare an array - eg
+	string[] particapants = new string[30]; //this is an string array with 30 storage space
+	int[] favNumbers = new int[5]; //this is an int array to store 5 values
+
+	for collections - eg 0 to 29 is 30 
+	thus to store the values
+	
+	particapant[0] = "Alan";
+	particapant[1] = "Smith";
+
+
+	Array will not fit the program, when 
+	a. you are not sure about the size / length
+	b. you are not sure about the datatype
+eg. there are 3 datatypes below
+	10
+	Ten
+	10.00
+	10.20
+
+2. ArrayList
+	this is more dynamic than array, refere to examples we did
+
+Array list - is are not typesafe by default
+	as it is allowing any value, in the background, program and hardware(ram and processor) has to put
+	a lot of effort for everyvalue, to detect what is the datatype and how much size should be allocated 	in the memory
+
+	in the background, a process called boxing and unboxing goes on which affects the performance
+		boxing - convert/copy the data from value type to reference type
+		unboxing - convert the data from reference type to value
+		
+	To read this is very simple just 2 lines, but hell of efforts for the execution, it affects the performance of application to a lot of extend for bigger application (enterprise applications)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

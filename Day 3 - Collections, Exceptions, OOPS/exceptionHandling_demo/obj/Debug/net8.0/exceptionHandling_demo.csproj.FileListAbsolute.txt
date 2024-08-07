@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\bin\Debug\net8.0\exceptionHandling_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\bin\Debug\net8.0\exceptionHandling_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\bin\Debug\net8.0\exceptionHandling_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\bin\Debug\net8.0\exceptionHandling_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\bin\Debug\net8.0\exceptionHandling_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\refint\exceptionHandling_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\exceptionHandling_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 3 - Collections, Exceptions, OOPS\exceptionHandling_demo\obj\Debug\net8.0\ref\exceptionHandling_demo.dll

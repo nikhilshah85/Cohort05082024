@@ -1,0 +1,16 @@
+Array
+int favnum[] = new int[5]; --this will be a fix size 20 bytes
+
+
+ArrayList
+
+ArrayList something = new ArrayList(); --this will go to heap
+
+as it does not have a size
+
+List<Employee> empList = new List<Employee>();
+
+empList.Add(empObj1);
+empList.Add(empObj2);
+empList.Add(empObj3);
+empList.Add(empObj4);

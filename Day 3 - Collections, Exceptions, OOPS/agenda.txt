@@ -1,0 +1,4 @@
+1. Collections in programming with C#
+2. Exception Handling
+3. OOPS - in detail a theory - most imp thing till 9 weeks
+	start the lab
