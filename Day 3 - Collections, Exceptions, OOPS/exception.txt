@@ -1,0 +1,116 @@
+Exception Handling (Error Handling) in a running program
+-------------------
+
+try
+{
+	..write all the code you want to run, can include 
+		calculations, user interations, validations etcc......
+	all the code we were wriing since last 2 days sits here
+
+}
+catch(Exception es) //here we have lots of classes of specific exception, IOException,SqlException,DivideByZeroException,IndexoutofrangeException, .....
+{
+	//give an appropriate message
+}
+finally
+{
+
+	//neutral block, will always execute in the end
+	//1 of the block try or catch will execute and then finally code executes
+	//use this block for thank you messages, clear/release/close any resource you have used which are 		//external to program
+		//eg. close connection to database server, close file if you had opened it etc...
+}
+--------------------------------------------------------------------------------------
+
+
+try
+{
+
+
+}
+catch(IOException es)
+{
+	console.writeline(es.message);
+}
+catch(SQLException es)
+{
+	console.writeline(es.message);
+}
+catch(DivideByZeroException es)
+{
+	console.writeline(es.message);
+
+}
+catch(Exception es)
+{
+	console.writeline(es.message);
+}
+finally
+{
+	console.writeline("Thank you");
+}
+
+database operaion
+try
+{
+	line 1
+	line 2
+	line 3 //opened a database connection
+	line 4 //trying to perform some database operation
+	line 5 //db operation ------------------------------------------> error / crash
+	line 6  //db operation
+//line 7 //close the connection
+//thank you message
+}
+catch(exception es)
+{
+	//handle it your way
+	
+	//close the file ---->>>>>>>>>>>>> error
+	//logout the user
+ //close the connection
+	//perform log operation
+	//send notification / email to some people 
+//thank you message
+
+}
+finally --this always executes in the end
+{	
+	//instead of writeing at both places, write it here
+	//close the connection here
+	//thank you message
+}
+
+
+
+try {}
+catch(..) {}
+
+
+try {}
+finally {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

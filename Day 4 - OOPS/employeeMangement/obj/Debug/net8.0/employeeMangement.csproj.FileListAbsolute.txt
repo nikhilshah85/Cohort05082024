@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\bin\Debug\net8.0\employeeMangement.exe
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\bin\Debug\net8.0\employeeMangement.deps.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\bin\Debug\net8.0\employeeMangement.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\bin\Debug\net8.0\employeeMangement.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\bin\Debug\net8.0\employeeMangement.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\refint\employeeMangement.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\employeeMangement.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 4 - OOPS\employeeMangement\obj\Debug\net8.0\ref\employeeMangement.dll

@@ -1,0 +1,45 @@
+						OOPS 
+
+		Object Oriented Programming System/Structure
+
+
+		Object - Is an Real World entity 
+
+	1.Every object will have a description - like an key and a value - called Properties
+		eg. Laptop 
+			color = "Black";
+			OS = "Windows";
+			weight = "3Kgs";
+			
+	2. Methods / Functions / Actions 
+
+	3. Enums - this are predefined list of values, and other values will not be accepted
+		for eg. Gender property in an Employee object
+			
+		Enum Gender
+		{
+			Male,Female
+		}
+
+		Properies
+		public string EmployeeName {get;set}
+		public double EmployeeSalary{get;set}
+		public Gender EmployeeGender{get;set;}
+
+		Employee empObj = new Employee();
+			empObj.EmployeeGender = 
+
+
+	4. What is a class - class is a blue print of an object 
+		class is the place where developers writes login, code, properties, methods, constructors, 			events etc...and then from this class 100's of objects will be created
+
+
+-----------------------------
+	1. Method Overloading
+	2. Params array
+	3. Optional Parameter
+
+
+
+
+
