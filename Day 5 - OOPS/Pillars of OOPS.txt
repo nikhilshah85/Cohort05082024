@@ -1,0 +1,221 @@
+1. Object - is a real world entity
+2. Class - is a blue print
+3. classes are made up of properties, methods, constructors, events, enums etc..
+	Methods
+		1.simple methods for execution, which will return something, in case you do not wish to 			return anything u can use void
+			eg
+		public void sendEmail()
+		{
+			//write your code
+		}	
+
+		2. Parameterised methods, which takes the parameters
+
+		3. Method overloading 
+		method overloading is, when you have same name for a method, but their return type could be 		different, or parameters (number of parameters, type of parameters, sequence of parameters) 		would be different
+		4. Params parameters, which is a parameter array
+		5. Optional and Named parameters
+
+
+		//optional parameter
+		public string OrderFood(string soupName,string mainCourse, string desert = "Ice Cream")
+		{
+				//processing
+
+			in this case desert is an optional parameter, if user does not pass a 3rd value
+			Ice would be servered by default 
+		}
+
+		obj.OrderFood("Chicken Soup","Pizza");   //ice cream will be considered for desert
+		obj.OrderFood("Wanton Soup","Pasta","Vanilla Fugg");
+
+		//named parameter
+		
+		public string OrderFood(string soupName,string mainCourse, string desert = "Ice Cream")
+		{
+		}
+
+	 obj.OrderFood(desert:"Apple Pie",mainCourse:"Chicken Noodles",soupName:"Clear Tomato Soup")
+
+
+------------------------------------------------------------------------------------
+		Design a class, programming a class is almost 500/1000 lines of code
+		For an enterprise application it is very important that you design the class well
+
+			Object Oriented Programming System 
+			Guidelines, Pillars to build a very good application
+
+			Thus, we will be discussing 4 Pillars of OOPS to design an application 
+
+		4 pillars
+		1. Abstraction 
+		2. Encapsulation
+		3. Inheritance
+		4. Polymorphism 
+
+Abstraction : when you design a class, consider only those 
+			properties, methods, enums, constuctors, variables etc.. which are in scope of				the software/object, and remove those components which are not needed
+
+		A object has 100's of properties to it but not everything falls in scope of a software
+
+		Eg. if you are designing a Account class, which properties will are imp
+			AccNo, AccName, AccType, AccBalance, like wise an user will have 100's properies
+			but are those falling in scope of a banking system
+
+			eg. Blood group of a person, is it needed to be created as a property in a 					class ?	
+			
+			
+		on the other hand if you are designing a software for Hospital, 
+			Will blood group be needed ?	
+
+		
+		Method like : EatingHabits() - may not be useful for a bank, but very imp for a health 			application for a hospital
+
+
+Encapsulation : (layman language understanding) 
+			As a developer create things which are very very easy to use BUT very difficult 			to understand how it works
+
+		(technical language understanding)
+			Hideing the implementation, logic, business login, processing logic, storage 				logic etc
+			and this is achived by createing properties and methods
+
+			AccountsBalance = 5000
+				- is a property, which makes it feel like or look like, AccountBalance is
+			holding or storing 5000
+				but value is stored inside some variable in the background which is private and hacker/user will never come to know the name of that variable, even developers are not suppose to forget the name of that variable
+		That's why Microsoft did is, asking user not to declare the variable at all, and let compiler generate that variable during compilation and use it in the background
+		obj.Withdraw(2000);
+
+
+Inheritance : Reuse the code 
+	we will have many similar types of an object, which will have common functionalities but will need to segegrate them, or design them separately in a different class
+		
+		eg. for a car company, they may have 20 models of SUV Car 
+			thus you will end up createing 20 classes for 20 cars, 
+		There are 15 common properties in all the cars
+		There are 7 methods common in all the cars
+
+		Why should you write 15 properies for 20 times, and end up createing (15 * 20) - 300 			properties in an application
+
+		similarly for methods, constructors, Enums etc..
+		Rather re-use 
+
+
+			Accounts accObj = new Accounts(); --error, red color swingy
+
+
+Polymorphism : This will happen only when you have inheritance, for a single class you do not get a chance to implement polymorphism, it happens between parent and child
+
+	Same signature of method in both parent and childrens,but different behaviours
+		Eg.rules for withdraw method for Savings account and checking account are different
+
+		like	
+		Savings account holder can withdraw max of 20000 in a day - provided has a balance
+		Cheking account holder can withdraw max of 100000 in a day - can withdraw even if does not have a bank balance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

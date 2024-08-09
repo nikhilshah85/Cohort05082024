@@ -1,0 +1,18 @@
+Try :
+	close the current project
+
+	1. create a new project, BankingSystem
+	2. Add a new class Accounts
+	3. Add Below Properties to it
+		AccountNo
+		AccountName
+		AccountBalance
+		AccountIsActive
+		AccountCity
+
+		Have below Methods
+		WithDraw
+		Deposit
+
+	4. In program.cs
+		create an Object of Accounts, assign properies, call/test withdraw and desposit functions

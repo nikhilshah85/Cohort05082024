@@ -1,0 +1,13 @@
+C - Dennis Ritchie (not easy or quick to learn for everyone)
+
+Thus, it was beautified, made easy, more functionalities added, became more powerfuland named as 
+
+C++ - Bjarne Stroupstus
+
+
+it was good, but lets make it more easy, we learned from industry experts, improvised, made It more simpler, more powerful, more easy, more flexible, more and more features
+
+
+C++
+ ++ - Andres Heilsberg
+

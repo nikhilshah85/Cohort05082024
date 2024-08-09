@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\bin\Debug\net8.0\BankingAPP_OOPS.exe
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\bin\Debug\net8.0\BankingAPP_OOPS.deps.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\bin\Debug\net8.0\BankingAPP_OOPS.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\bin\Debug\net8.0\BankingAPP_OOPS.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\bin\Debug\net8.0\BankingAPP_OOPS.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\refint\BankingAPP_OOPS.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\BankingAPP_OOPS.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 5 - OOPS\BankingAPP_OOPS\obj\Debug\net8.0\ref\BankingAPP_OOPS.dll

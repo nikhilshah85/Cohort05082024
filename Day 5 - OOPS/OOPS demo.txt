@@ -1,0 +1,63 @@
+1. Create a new Project in Day 5 folder - BankingAPP_OOPS
+2. in the project add a new file Accounts.cs and add below properties and methods
+	AccountNo, AccountName,AccountBalance,AccountIsActive,AccountBranch
+
+	methods
+		WithDraw(amount)
+		Deposit(amount)
+		CheckBalance
+
+3. Let us add 3 more types of accounts to the solution
+	add a new file Savings.cs
+		       Checking.cs
+		       Loan.cs
+
+		we will create classes within this file
+
+This classes are suppose to have the similar properties and methods as mentioned above for accounts class
+we will use inheritance instead of rewiting the properties and methods
+
+4. Let us add 1 property specifically to all this classes to check the object
+	
+    public int IntrestEarned { get; set; } //savings
+
+   public bool EnableOverDraftFacilty { get; set; }  //checking
+
+    public double RateOfIntrest { get; set; } //loan
+
+
+5. Polymorphism,  Now for the Withdraw method we wish to have different rules for all 3 classes
+		i.e 
+		Savings accounts object can withdraw maximum 20000 in a day/transaction
+		Checking account object can withdraw maximum 100000 in a day/transaction
+					they can even withdraw even if they do not have adequate balance
+				provided OverFacility property is true
+		Loan account cannot withdraw 
+
+		to achive so, we will mark Withdraw method as
+		1. virtual in parent class 
+		2. overrides in child class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
