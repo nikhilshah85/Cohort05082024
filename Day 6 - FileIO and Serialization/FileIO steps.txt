@@ -1,0 +1,26 @@
+we need to include
+	1.	using System.IO; //on top
+
+	2. 		we will use 1 of the class to point to a file
+		FileStream myFile = new FileStream("myfile.txt",FileMode.Create,FileAccess.Write);
+
+	3. 		we will use 1 of the class to read or write
+		  StreamWriter wr = new StreamWriter(myFile);
+			wr.WriteLine("Hello My Name is Nikhil");
+			wr.WriteLine("I am from India");	
+			wr.WriteLine("I love Programming");
+
+
+			if you wish to read 
+		 StreamReader rd = new StreamReader(myFile);
+		 rd.ReadLine(); //read the first line
+		 rd.ReadLine(); //second line
+		 rd.ReadLine(); //third line
+		 rd.ReadLine(); //fourth line
+
+	4. once you are done with your activities
+		you should close the connection to file
+			wr.Close();
+			or
+			rd.Close();
+			myFlie.Close();

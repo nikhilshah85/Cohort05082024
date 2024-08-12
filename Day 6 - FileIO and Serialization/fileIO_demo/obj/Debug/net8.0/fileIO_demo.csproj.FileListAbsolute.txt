@@ -1,0 +1,14 @@
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\bin\Debug\net8.0\fileIO_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\bin\Debug\net8.0\fileIO_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\bin\Debug\net8.0\fileIO_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\bin\Debug\net8.0\fileIO_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\bin\Debug\net8.0\fileIO_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\refint\fileIO_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\fileIO_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\Cohort - 08052024\Day 6 - FileIO and Serialization\fileIO_demo\obj\Debug\net8.0\ref\fileIO_demo.dll

@@ -1,0 +1,60 @@
+		File IO operations 
+		using FileStream
+		      StreamReader
+		      StreamWriter
+
+	they are good for loosely coupled data and primitive data types like int, string, double etc
+	
+	but is not suitable for Custom Objects
+
+	if you wish to store an Object which has 20 properies, it becomes really lenthy and difficult
+	Object are also passed over network on internet, eg. accounts obj at Bank, ATM obj at atm machines	etc...
+
+	they need to be in a Format like XML, SOAP, Binary etc..
+	Which FileIO does not do
+
+	Thus we have a new Concept called Serialization
+
+	Serialization is a process to persist state of an Object in memory to a storage or network
+		Thus let us have a look at serialization
+---------------------------------------------------------------------------------------------------
+	
+	let us first prepare the fundmenatals needed to learn serialization
+
+
+	1. Create a new project - SerializationDemo
+	2. Add a new File - Accounts.cs
+	3. Add a new class - Accounts with below properties and methods
+		AccNo, AccName, AccType,AccBalance,AccIsActive
+		WithDraw(amt) method
+		Deposit(amt) method
+		CreateNewAccount
+		ReadAccount
+	4. In program.cs, create a structure using while loop and switch case for below options
+		1. Create New Account
+		2. Read Account Details
+		3. Withdraw
+		4. Deposit
+		5. Exit
+
+		(similar to what you had in program.cs for previous example)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

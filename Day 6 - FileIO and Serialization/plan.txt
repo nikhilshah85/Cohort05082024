@@ -1,0 +1,60 @@
+				OOPS
+		Abstraction
+		Encapsulation
+		Inheritance
+		Polymprphism
+
+---------------------------------------------------------------------------------------
+		we will be learning .Net Core API's - BCL / FCL provided and we see how to use them
+		
+		FileIO - file input and output
+		from the program, create new files, write into them, append to them, override, read etc
+
+		Serialization - This is to save the object from Memory to storage (disk / network)
+			and when ever needed get the same object back into memory 
+
+			
+			Employee emp = new Employee();	
+			emp.Name = "someone";
+			emp.WorksAs = "Manager";
+			emp.City = "NYK";
+
+			emp.ApplyLeave(5); //this will change the available leaves for the user
+
+			
+			when you close the program, object will be gone
+
+			when you start the program again, you should get emp in the same state
+
+------------------------------------------------------------------------------------------
+			
+	
+	
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
