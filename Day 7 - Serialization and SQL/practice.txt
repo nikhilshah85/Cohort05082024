@@ -1,0 +1,8 @@
+1. create a new database BankingDB
+2. Add 2 tables
+	BranchInfo
+		branchNo,branchName,branchCity
+		add 5 records (rows)
+	AccountsInfo
+		accNo,accName,accType,accBalance,accIsActive
+		add 15 records in this table
