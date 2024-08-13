@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Accounts>
+    <AccountNo>101</AccountNo>
+    <AccountName>Rax</AccountName>
+    <AccountBalance>9000</AccountBalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>Savings</AccountType>
+  </Accounts>
+  <Accounts>
+    <AccountNo>102</AccountNo>
+    <AccountName>Max</AccountName>
+    <AccountBalance>19000</AccountBalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>Loan</AccountType>
+  </Accounts>
+  <Accounts>
+    <AccountNo>103</AccountNo>
+    <AccountName>Sundar</AccountName>
+    <AccountBalance>29000</AccountBalance>
+    <AccountIsActive>false</AccountIsActive>
+    <AccountType>Savings</AccountType>
+  </Accounts>
+  <Accounts>
+    <AccountNo>104</AccountNo>
+    <AccountName>Aflex</AccountName>
+    <AccountBalance>39000</AccountBalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>Checking</AccountType>
+  </Accounts>
+  <Accounts>
+    <AccountNo>105</AccountNo>
+    <AccountName>Richard</AccountName>
+    <AccountBalance>45000</AccountBalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>Savings</AccountType>
+  </Accounts>
+</ArrayOfAccounts>

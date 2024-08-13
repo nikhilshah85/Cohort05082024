@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Accounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AccountNo>1003</AccountNo>
+  <AccountName>Michele</AccountName>
+  <AccountBalance>9000</AccountBalance>
+  <AccountIsActive>true</AccountIsActive>
+  <AccountType>Morgage</AccountType>
+</Accounts>
