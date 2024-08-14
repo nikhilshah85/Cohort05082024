@@ -1,0 +1,6 @@
+1. Revist the topics
+2. Read Blog on constraint
+3. You can work on the project
+
+Phase 2 of the project will be database, you can create tables and if needed have some dummy records in it
+name of DB - BankingDB_Project0

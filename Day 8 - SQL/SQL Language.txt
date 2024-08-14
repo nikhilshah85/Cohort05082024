@@ -1,0 +1,150 @@
+					SQL - Structured Query Language
+
+					divided into sublanguages based on operations you do 
+
+				Sublanguages
+					A. DDL - Data Defination language
+	This is to define a structure to store the data, eg. structure of emp table
+
+					it has below commands
+			1-- Create (to create a new object -database, table, view, function, proc etc)
+			2-- alter (to modify the structure of object - add more column)
+			3-- drop (to drop the object from database) - delete emp table
+
+			Syntax structure
+			create objecttype objectName(.......)
+			create table EmployeeInfo( columns list)
+			create procedure EmpBonus(@salary int, @percentage int){ ..... }
+			create database EmployeeManagement 
+
+					B. DML - Data Manipulation Language
+			4.--Insert (to add new data to the table, record/row)
+			5.--Update (to Edit record)
+			6.--Delete (to delete the record)
+
+
+					C. DQL - Data Query Language
+	(emp Is a table with columns empNo, empName,empDesination,empSal,empIsActive)
+
+			7. select * from emp (this will select all the data, all the columns)
+			8. select * from emp where empNo = 101
+			   select * from emp where empDesignation = 'Manager'
+			   select * from emp where empSal > 10000 and empIsActive = 1
+			   select * from emp where empName = 'Rick'
+			9. select empNo,empName from emp
+			10. select empNo, empName, empSal, empSal * 0.2 from emp;
+			11. select upper(empName) from emp;
+			12. select empName + ' : ' + empDesigantion from emp;
+
+		-----------------------------------------------------
+			  How to filter data ? we use where clause
+				eg. Point 8 above
+			13. How to sort the data ? we use order by clause
+				select * from emp order by empName
+			14. work with Aggregate functions 
+				Sum, Min, Max, Count, Avg
+
+				select min(empSal) from emp
+				select max(empSal) from emp
+				select count(empNo) from emp
+				select sum(empSal) from emp
+				select avg(empSal) from emp
+
+			15. I have 3 types of AccType --> Savings, Checking and Loan
+			I want to know how many are savings, how many checking and how many loan 
+
+				select count(accType) from AccountsInfo where accType = 'Savings'
+
+				select count(accType) from AccountsInfo where accType = 'Checking'
+
+				select count(accType) from AccountsInfo where accType = 'Loan'
+
+				
+--you will need to write seperate query for every accType, if you have 50 types of account
+	instead you can use group by and get the data all at once
+
+		select count(accType), accType from accountsInfo 
+			group by accType
+
+		Try : 1. fire a query to know total of active and inactive accounts
+		      2. Total Available balance for active and inactive acc
+
+
+
+		16. How to collect unique values from a column ? eg what are types of account you have
+			distinct 
+			select distinct accType from accountsInfo
+
+		17. String functions
+			upper,lower,concat,substring big list.... 
+		18. Wildcard characters % and _
+			
+			select * from AccountsInfo where accName like 'S%'
+			select * from AccountsInfo where accName like '_a%'
+			select * from AccountsInfo where accName like '%k'
+
+		19. select with column alias, when you calculate or have functional data as result
+			column names are abscent, you may want to name them
+			also you do not want to display the default column name as output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
