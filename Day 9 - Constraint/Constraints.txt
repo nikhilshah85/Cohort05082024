@@ -1,0 +1,223 @@
+					SQL Day 1 - yesterday
+
+		Sublanguages
+			1. DDL
+			2. DML
+			3. DQL - Joins we will want to cover this in details - lots of question on this 
+				during interviews 
+				Join 2 tables to get the output 
+
+			Constraint
+			Constraints are rules for validation of data
+	eg. you will not want empSalary to accept less than 2000 as value and more than 25000
+	    you will not want 2 or more people to have same empNo, or accNo
+	    you will not want any other value besides Male/Female in empGender column
+	    you will not want empName to be Just A or ab - we need min 2 characters
+	   you will not want Same product name (eg. Pepsi) to be entered more than 1 time in Products table 	  you will not empDesignation value to be left blank for emp
+
+		Thus Constraints will validate the data before insert, update, delete happen on a table
+
+	Types of constraints
+1. Not Null - when you specify this, column value cannot be left blank
+2. Primary Key - this is the identity of record in a table eg. empNo is identity of employee
+								       accNo is identity of Account
+					this value is always unique and never repeated in a column
+					duplicate value is not allowed
+				this is a mandatory value
+3. Unique Key - this will make sure that value is not repeated, will not allow duplicate value in a 				column, but this is not the identity of a record	
+				columns like passportNo or SSNNo, mobile no, email address 
+				this is not mandatory (unless declared with not null) but if you value is 				entered, it has to be unique
+
+		imp interview question, what is the difference between Primary key and unique key ?
+
+		a. Primary key is an identity of a record and unique key is not
+		b. you can have only 1 primary key for a table, but multiple unique key for a table
+		c. Primary key values are mandatory, unique key is not
+		d. Unique key will allow 1 null for 1 row, because Null is also a unique value in its own 			way, which is not the case with Primary key, primary key will not allow a null value
+		
+
+
+
+
+
+4. Check constraint - this will check the incoming value for a condition, if condition is passed data 		goes in the table else no
+		if no of characters in empName is less than 3 - fail
+		salary to be between 5000 and 25000 only	
+		designation can only be (Developer, HR or Sales) - nothing else 
+
+5. Foreign Key constraints - this is used to create a relationship between 2 or more tables
+		you generally have a master table and child table
+		eg. 
+		BranchInfo
+			branchNo
+			branchName
+			branchCity
+	
+		101 Hi-tech Hyderabad
+		102 EmpireState NYK
+		103 Abc         New Jersey
+		104 XYZ         California
+we are having branches only on this location, and identity of everybranch is BranchNo, primary key
+		AccountsInfo
+			accNo
+			accName
+			accType
+			accBalance
+			accIsActive
+			accBranch
+		501 Cooper Savings 8000 1 (accBranch can only be the values from branchInfo table and 						   branchNo)
+		Thus we will have to relate both the tables using Primary key and foreign key
+
+		where in, BranchNo in BranchInfo is already a primary key, and thus we will have to declare accBranch as forign key
+
+
+
+
+			we want to have an Employee table, where 
+			empNo is a primary key 
+			empName, no of characters should be min 3 and cannot be left blank
+			empDesignation, values can be only Developer, Designer or manager
+			empEmail, has to be unique
+			empSalary,value can only be between 5000 and 25000
+			empDept - this will be foreign key to deptInfo table
+
+
+		--easy way to create this table is, first write the structure with datatype like yesterday
+
+	format of constraint declaration is
+		constraint constraintName constrainttype (column and checks in case of check constraint)
+
+
+		create table EmployeeInfo
+		(
+			empNo int,
+			empName varchar(20) not null,
+			empDesignation varchar(20),
+			empEmail varchar(50),
+			empSalary int,
+
+			constraint pk_empNo primary key(empNo),
+			constraint chk_empName_length check ( len(empName) >= 3)
+		)
+			
+
+	//to modify the table structure - which command to be used ? 
+		//here you want to change the structure of the table and thus you will use DDL commands
+		//here it would be alter command- which can be used to add, drop, modify the structure
+
+
+alter table EmployeeInfo add constraint chk_empDesignation check (empDesignation in ('Developer','Designer','Manager')
+
+alter table EmployeeInfo add constraint unk_empEmail unique (empEmail)
+
+
+---------------------
+			Let us learn foreign Key now
+
+	--let us first have parent table, deptInfo
+		--deptNo,deptName,deptCity
+
+		create table deptInfo
+		(
+			deptNo int,
+			deptName varchar(20) not null,
+			deptCity varchar(20) not null,
+
+			constraint pk_deptNo primary key(deptNo),
+			constraint unk_deptName unique(deptName)		
+		)
+		insert into deptInfo values(10,'HR','NYK')
+		insert into deptInfo values(20,'Sales','New Jersey')
+		insert into deptInfo values(30,'Training','Mumbai')	
+		insert into deptInfo values(40,'IT','London')
+
+	--let us add a new column empDept in employee table, we need to make sure emp can work only in those
+		-- dept which are valid as per deptInfo table
+			--which can be 10, 20, 30 or 40 only
+		alter table employeeInfo add empDept int
+	
+	--let us now add foreign key to employeeInfo
+		alter table employeeInfo add constraint fk_empDept foreign key(empDept) references deptInfo
+
+
+
+
+
+	
+	Practice - Task - Assignment - Mandatory - Time to complete 30 mins till 1:15 
+		Lunch from 1:15 to 2:30 (if you come back early, plan your tables for project because till
+						morning you were not aware of constraint)
+
+
+	create a new database BankingDB2 (drop if already exist)
+
+	we will need 2 tables
+	1. BranchInfo
+		branchNo -- to be primary key
+		branchName -- to be unique (this is name of some famous area)
+		branchCity -- Mandatory
+
+		insert 5 records 
+
+	2. AccountsInfo
+		accNo -- to be Primary key
+		accName -- Mandatory
+		accType -- only Savings, Checking and Loan allowed
+		accBalance -- cannot be negative anytime (0 is fine)
+		accIsActive 
+		accBranch -- to be foreign key with BranchInfo table
+
+		insert 10 records 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

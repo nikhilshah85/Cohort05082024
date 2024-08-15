@@ -1,0 +1,22 @@
+!!----------Welcome to Banking--------------!!
+
+1. Admin
+2. Customer
+
+		in the DB I have 2 tables		
+			AdminLogin
+			CustomerLogin
+
+		when user clicks 1, I will connect to admin table and check username and pwd
+		when user select 2, I will connect to customer table and check username and pwd
+
+many associates in previous cohort had a single table called Login
+		username
+		password
+		usertype (admin or customer)
+some had
+	username
+	password
+	isAdmin (bit)
+
+
