@@ -12,6 +12,10 @@ create table AdminUser
 	constraint pk_userName_admin primary key(userName)
 )
 
+
+
+
+
 insert into AdminUser values('AdminA','a_admin_2314')
 insert into AdminUser values('AdminB','b_admin_2324')
 insert into AdminUser values('AdminC','c_admin_2334')

@@ -17,7 +17,5 @@ public partial class AccountInfo
 
     public string? AccCustomer { get; set; }
 
-    public virtual CustomerUser? AccCustomerNavigation { get; set; }
-
     public virtual ICollection<NewServiceRequest> NewServiceRequests { get; set; } = new List<NewServiceRequest>();
 }

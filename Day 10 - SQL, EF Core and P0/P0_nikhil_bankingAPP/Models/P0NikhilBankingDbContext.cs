@@ -52,10 +52,6 @@ public partial class P0NikhilBankingDbContext : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("accType");
-
-            entity.HasOne(d => d.AccCustomerNavigation).WithMany(p => p.AccountInfos)
-                .HasForeignKey(d => d.AccCustomer)
-                .HasConstraintName("fk_accCustomer");
         });
 
         modelBuilder.Entity<AdminUser>(entity =>
