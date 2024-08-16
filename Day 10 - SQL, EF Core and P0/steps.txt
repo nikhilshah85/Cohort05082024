@@ -1,0 +1,105 @@
+I will want to have login creadentials checked from table in a database
+I will want to show you the new record creation in a table (insert into table from console)
+I want to perform withdraw, deposit and transfer
+I want to get the total accounts
+
+-------------
+Next week as planned, first half is training
+2nd half is project and QC prep 
+both on Friday (23rd Aug) 
+------------------------------------------------------------------------------------------------------
+
+
+
+
+1. create a new database and add tables to it
+	create database P0_nikhil_bankingDB
+
+
+	below tables
+		Admin table
+		Customer table
+		AccountsInfo
+		NewServiceRequest
+
+2.
+	a. create a new project - P0_nikhil_bankingAPP
+	b. we need to add nuget packages for Entity Framework which will communicate with database
+		there are 4 packages which will be installed in sequence
+			Microsoft.EntityFrameworkCore.Tools
+			Microsoft.EntityFrameworkCore.Design
+			Microsoft.EntityFrameworkCore
+			Microsoft.EntityFrameworkCore.SqlServer
+	command to add nuget packages 
+		dotnet add package ...name of package, eg Microsoft.EntityFrameworkCore.Tools
+
+
+3. We will download POCO classes from server
+	POCO -> Plain C# Objects
+
+	Entity framework is based on design pattern - ORM - object relational mapping
+	where in, for everytable in db, you will have a class with that name
+			ie 4 classes will be there for Admin,Customer,Accountsinfo,NewServicerequest
+
+			This classes will have properties mapped to columns in that table eg. AccNo
+
+		this is done by using the command on terminal called Scaffold-DbContext
+
+dotnet tool install --global dotnet-ef
+
+dotnet ef dbcontext scaffold "server=NIKHILPC\MUMBAISERVER;database=P0_Nikhil_bankingDB;integrated 		 security=true;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -o Models 
+
+
+---------------
+that's it
+we use LINQ Queries to talk to database
+	LINQ is - Language Integrated query for working with data
+		it has similar syntax like sql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
