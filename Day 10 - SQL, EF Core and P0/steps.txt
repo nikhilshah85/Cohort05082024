@@ -60,6 +60,140 @@ we use LINQ Queries to talk to database
 
 
 
+Now, to communicate with database, data, we use LINQ queries
+
+	LINQ - is language Integrated query, this queries you will learn will be similar for any managed/organised data like, collections, filesystem, mailbox, xml files, excel files etc....
+
+		syntax is more like SQL (reverse sql queries and you get linq)
+
+		it starts with var on the left side and query on the right side
+
+		eg. to get all the accounts form database
+
+		var accData = from a in db.accountsInfo
+				select a;
+
+			a is like a pointer variable, which could be anything, acc or ab or ac or x or z
+			in sql we say select * from accountsInfo
+			 we cannot use * in c# because it is an operator for multiplication, and thus we 			use some name there
+
+			db here is an instance of DbContext POCO class
+
+
+---------------------------------------------------------------------------------------------
+			//get all the records	
+		var accData = (from a in db.accountsInfo
+				      select a).ToList();
+
+		var accData = (from a in db.accountsInfo
+				where a.accNo = 103
+				select a).Single();
+
+		var isvalidAdmin = (from a in db.adminUser
+					where a.userName == 'AdminA' && a.Password == "pass@123"
+					select a).single();
+				if(isvalidAdmin != null)
+				{
+					//login successful
+				}
+				else
+				{
+					//login failed
+				}
+		var totalAccounts = (from a in db.accountsInfo
+					select a).Count();
+
+			console.writeLine("Enter Account Type");
+			string acType = console.readLine();
+
+		var accByType = (from a in db.accountsInfo
+				where a.accType == acType
+				select a).ToList();
+
+			console.writeLine("Enter Account No");
+			int userAcNo =  convert.toint32(console.readLine());
+
+
+		var accByNo = (from a in db.accountsInfo 
+				where a.accNo == userAcNo
+				select a).ToSingle()
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
