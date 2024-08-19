@@ -1,0 +1,8 @@
+This week
+
+3 things to focus on
+
+1. SQL and TSQL (Transact SQL, which is programming added to SQL, if, loops, variables, etc...)
+2. Project
+3. QC interview prep
+

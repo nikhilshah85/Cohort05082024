@@ -1,0 +1,127 @@
+			SQL and TSQL
+
+
+Normalization -- PPT 2 - today you will go through this as a pre-read for Jargon know-how and tomorrow we study this in detail
+
+1. Views
+2. Sequence
+3. Index
+TSQL
+Functions
+Stored Procedures
+Triggers
+Exceptions
+
+
+For the week
+
+
+
+
+
+in real when you say
+select * from AccountsInfo
+select accNo,accName,accBalance from AccountsInfo
+select accNo,accBalance,accBalance * 0.02 as Intrest, accBalance * 0.03 as Reward from AccountsInfo
+
+		the above 3 statements, 
+		revels - name of the table, columns, calculation logic
+
+	if you write it on a console app, it is safe
+
+	but when you write it in a web application,there are hackers which can try to steal the
+	database information  and further try to corrupt your data(competitors), manipulate your data(eg. 		increase the balance in accBalance columns) -- 
+
+
+1.TABLE is the core storage of data ,and if is compromised, its a bad thing, thus Database developers do not share the actual name of the table, instead they create views, which will refer the table internally by different name, that way it adds 1 level of security to your data
+
+2. it also helps make long queries, look smaller (very smaller)
+	this is the simplest topic in entire sql 
+	
+	create view viewName
+	as
+	sql query
+
+	create view ListofAccounts
+	as
+	select * from AccountsInfo
+
+	create view AccountDetails
+	as
+	select accNo,accName,accBalance from AccountsInfo
+ 
+	create view BalanceInformation
+	as
+	select accNo,accBalance,accBalance * 0.02 as Intrest, accBalance * 0.03 as Reward from AccountsInfo
+
+
+
+	--database  developers will say data is stored in a table called BalanceInformation
+
+	//frontend developer (console, web, mobile)
+	will say 
+	select * from BalanceInformation
+
+
+
+	create view EmployeeInformation
+	as
+	select empNo as [Employee Number],
+	       empName as [First Name],
+	       empSalary as [Monthly pay],
+	       empIsPerment as [Employment Status],
+	       empDesigantion as [Works As],
+	       ((empSalary * 0.2) + 500) * 12 as [Annual Bonus]
+	       empDeptName as [Working in],
+	       empDeptLoc as [Office]
+	from employeeInfo join deptinfo
+		on 
+		employeeInfo.empDeptNo = deptinfo.deptNo
+
+
+	update EmployeeInformation set [Monthly pay] = 30000 where [Employee Number] = 101
+	update employeeInfo set empSalary = 30000 where empNo = 101
+
+//change salary of all emplyees working in NYK 
+update employeeInfo set empSalary = 30000 where empDeptNo = (select deptNo from deptInfo where city
+							= 'NYK')
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+	--database  developers will say data is stored in a table called EmployeeInformation
+	select * from EmployeeInformation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

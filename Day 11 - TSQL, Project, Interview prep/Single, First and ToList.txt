@@ -1,0 +1,61 @@
+
+	
+var getMyAccount= (from a in db.AccountList
+			where a.accNo == '101'
+			select a).ToSingle();
+
+
+
+//This works best when you know there could be only 1 or no transaction
+//use this when you know there is going to be only 1 or no record, and not more than 1
+var getMyAccount= (from a in db.TransactionInfo
+			where a.accNo == '101' and a.trnsactionDate == '01/01/2024'
+			select a).SingleOrDefault("Sorry no transaction found");
+
+//what if there are 3 transactions found ??? First() will atleast pick up the first 1 (and you are not //concerned about other 2, remember u will still miss showing other 2, but no error 
+//thus use this when you know there is atleast 1 transaction 
+var getMyAccount= (from a in db.TransactionInfo
+			where a.accNo == '101' and a.trnsactionDate == '01/01/2024'
+			select a).First();
+
+//but what if by writing the above query, you do not have even a single transaction ??
+var getMyAccount= (from a in db.TransactionInfo
+			where a.accNo == '101' and a.trnsactionDate == '01/01/2024'
+			select a).FirstOrDefault();
+
+//and how about if you want to display all the 3 transaction ???
+//use toList
+
+var getMyAccount= (from a in db.TransactionInfo
+			where a.accNo == '101' and a.trnsactionDate == '01/01/2024'
+			select a).ToList();
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+	//this is suppose to return a single account
+	//but what if 101 does not exist in the table - this will throw an exception - null referene ex
+
+		//which means you should end up writing this code under try..catch and --which is extra code-- looks lenthy and sometimes heavy, a little bit slow as exception has to be handled
+
+	..instead a shortcut is
+
+	var getMyAccount= (from a in db.AccountList
+			where a.accNo == '101'
+			select a).ToSingleorDefault("Sorry account not found");
+
+
+
+			
+			

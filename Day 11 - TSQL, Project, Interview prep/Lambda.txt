@@ -1,0 +1,20 @@
+for 
+select * from accounts -- this will return multiple records - thus should be treated like a list
+select * from accounts where accNo = 501 -- this is a single record, so why to treat it like a list and why not like a single records which is much lighter, faster than a list
+
+
+P0NikhilBankingDbContext db = new P0NikhilBankingDbContext();
+
+var allAccounts = (from a in db.AccountInfoes
+		  select a).ToList();
+
+var myAcc = (from a in db.AccountsInfoes	
+	where a.accNo = 104
+	select a).ToSingle();
+
+---------------------------------------------------------------------------------------------
+var myAcc = db.AccountInfoes.Equals(a => a.accNo == 101).Tosingle(); 
+
+		//This is a short hand way of doing the same thing, introduced by Microsoft
+		for ligheter and cleaner code
+		//called as Lambda Expressions
