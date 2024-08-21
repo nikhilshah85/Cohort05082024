@@ -1,0 +1,28 @@
+create table stocktable(stockid int primary key,stockname varchar(20),availableqty int)
+
+create table sales
+(
+	id int primary key identity,
+	stockid int,
+	saleqty int,
+	constraint fk_stockid foreign key(stockid) references stocktable,constraint chk_saleqty check(saleqty > 1))
+
+create table stockreorder (id int primary key identity,stockid int)
+insert into stocktable values(101,'Pepsi',20)
+insert into stocktable values(102,'Maggi',20)
+insert into stocktable values(103,'Coke',20)
+
+
+create trigger trg_stocksale on sales
+after insert
+as
+begin
+	declare @saleqty int = 0;
+	declare @stockid int = 0;
+
+	select @saleqty = i.saleqty from inserted i
+	select @stockid = i.stockid from inserted i
+	update stocktable set availableqty = availableqty - @saleqty where stockid = @stockid
+end
+
+insert into sales values(101,5)
