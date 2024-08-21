@@ -1,0 +1,13 @@
+Day 12 plan
+
+functions
+procedures
+triggers
+Normalization ppt
+transaction and ACID properties
+
+
+---
+Project
+solid principles
+reads

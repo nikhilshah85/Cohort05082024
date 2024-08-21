@@ -1,0 +1,24 @@
+						Index (for the performance of query)
+
+
+	They are used to improve server performance to search for records faster
+		There are 2 types of indexes
+	a. clustered index
+	b. Non-clustered index
+
+
+	clustered index is only 1 per table
+	they get created when you create a primary key	 - this is for identity column
+	Non-clustered index gets created on other columns - this is for other columns
+
+	with clustered index, data is sorted in the same place/storage
+	non-clustered index, all the pages are copied to another place and then they got sorted
+
+	so we created non-clustered index on accType which will fasten up the below query
+	select * from accountsInfo where accType='Savings'
+
+	many times queries are based on 2 columns
+	select * from accountsInfo where accType='Savings' and accBalance > 5000
+	
+	this index is also termed as composite index
+
