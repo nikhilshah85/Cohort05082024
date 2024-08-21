@@ -1,0 +1,181 @@
+SQL 
+	Sublanguages
+		DDL
+		DML
+		DQL
+		DTL / DCL - data control language - data transaction language
+			commit(save) - confirm the save - control + S
+			rollback (undo) - control + Z
+
+TSQL - Transact SQL 
+	This gives programming ability to the SQL
+
+	Important objects
+		Function
+		Procedure
+		Trigger
+		Exceptions
+		Cursor
+	This also add a lot in terms of performance and security
+
+	part of DDL
+		create 
+		alter
+		drop
+
+
+----------------------------------------------------------------------
+
+
+
+Functions 
+	They are used for 
+		Calculations
+		Data formatting
+		validations
+
+
+procedure
+	They are used for - Data Manipulation and selection
+		Select
+		Insert
+		update
+		delete
+
+
+Triggers
+		Types
+			After trigger
+			Before trigger (this is a custom constraint)
+			Instead of trigger (specially invented for views)
+	They are used for Automation
+		eg
+		in below tables
+			EmployeeInfo
+				when you make anychange in employee, insert, update or del a record
+			we want server to mark an entry for us in the backend on its own in EmpHistorytable
+
+		another example - for a grocery store
+			below are the tables
+
+			StockInfo
+	PId	Product       AvailableQty
+	101	Pepsi  		50
+	102	Sandwich	50
+	103	Toothpaste	50
+	104	Razor		50
+	105	Apple Juice	50
+
+			SalesTable (when someone buys and pays we make an entry here)
+		SaleId	ProductId PurchaseQty ....amt etc..
+		1	101	   6
+		2	104	   7
+		3	105	   12
+		4	101	   18
+	when a new sale is made, server should update stock info table and reduce the availability value for 	that product
+
+
+		Further we have a table call Reorder
+	when the available qty goes below 15, an enter should be made in Reorder table for that product
+		and when it reached 5 - server can send an email to supplier of that product
+------------------------------------------
+
+Before trigger
+	Nobody - should be able to perform Insert, update, delete on employee table
+		During non-working hours and on holidays
+		you or HR cannot add a new employee to system on Friday evening
+
+		we want to tell server to check 
+		if time falls between 9AM to 5PM AND day is Monday to Friday  then only do DML
+			else show an exception message
+
+----------------
+Instead of trigger created on views
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+		For Accounts info we created 
+		AddNewccount
+		DeleteAccount
+		UpdateAccount
+
+		We need to search account based on no, type, isactive etc.. multiple parapamets
+
+		developers end up createing 6-7 procedures per table
+
+		now, if we have 20 tables it would end up createing 120 procs
+		which server has to take care of !!
+
+		in 1 of the approach you create 1 procedure for all the operations on a table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		

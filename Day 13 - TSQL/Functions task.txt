@@ -1,0 +1,35 @@
+Try - Task
+
+1. Function
+2. Procedure
+
+-----------
+	function
+
+create a function calculate AnnualSalary based on below parmeters
+	1. ask for monthly salary - eg user says 1000
+	2. ask for educational qualification, if they say 
+				graduate - we pay 500 per month + monthly sal
+				masters - we pay 800 per month + monthly sal
+	3. ask total years of experience - if they say
+				1 - add 100 to monthly + edu qualification 
+				2 - add 200 to monthly + edu qualification 
+				3 - add 300 to monthly + edu qualification 
+			and so on, 400 for 4 and 500 for 5 ---500 is last even for 6 or 7 It will be 500
+			for 0 - it will be 0
+	4. tax is 250 per month
+	5. tell me the total salary for 12 months (annual)
+
+
+	if user say 1200 is monthly, has done masters, 2 years experience
+
+	((1200 + 800 + 200) - 250) * 12 = 23,400
+
+		complete this by 1:15 and then have lunch and we resume by 2:15 
+		if done early revise the things
+
+
+	
+	
+
+	 
