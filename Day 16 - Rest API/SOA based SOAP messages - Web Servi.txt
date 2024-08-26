@@ -1,0 +1,40 @@
+SOA based SOAP messages - Web Services were good 
+but in today world we have below problems
+
+1. SOAP is very heavy to transport(1kb data, with 5 kb meta data, end user has nothing to do with metadata)
+2. SOAP, since it had lot of data, heavy and bulky packets, it use to take more time to 
+		serialize and deserialize
+3. Web Services were built for web(use to run on web) - but it did not follow web standards(HttpStandards)
+4. Web services were tightly coupled application - it used proxy files to keep data and clients for communiation - which indirectly meant it is not open to everyone
+
+-------------------------------------------------		
+	Thus a new light weight technology was needed and for the same JSON format was choose
+		JSON - java Script object notation - text based light weight language, faster, easy
+
+		REST technology / services were introduced by 
+			W3C and ECMA 
+			W3C - World Wide Web Consortium
+			ECMA - European Computer Manufacturing Association 
+
+		Microsoft Adopted this standards
+			created compilers, namespaces, classes, methods, properties etc
+
+		and gave it a name as ASP.Net WebAPI with .net core 
+
+		There is a seperate designation in a team - REST API developer	
+			They are suppose to be good at 2 below points
+			1. How to create REST services for users, other teams, clients, customers etc..
+		  	2. How to consume REST services in console app/ASP.Net MVC/ REACT / Angular etc.
+					
+ 
+		
+
+
+
+
+
+
+
+
+
+		

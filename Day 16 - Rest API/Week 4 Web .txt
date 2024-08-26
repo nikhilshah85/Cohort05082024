@@ -1,0 +1,48 @@
+				Week 4: Web 
+
+		1. REST API  (the most used technology today)
+		2. ASP.Net MVC app (web UI) - more focus on programming (c#)
+		
+		3. HTML, CSS and JS - which will help a lot for React app
+-----------------------------------------------------------------------------------------------------
+
+			PO - Project 0 - Console APP, SQL and Entity Framework (individual)
+			P1 - Project 1 - ASP.Net WebAPI, SQL and REST  (individual)
+				hosted on Azure cloud
+			P2 - Project 2 - React, RestAPI, Entity Framework, Docker and Kubernetes with DevOps
+					on Azure (Group project)
+			
+		Attended by Trainers, QC Team, Clients and associates from other cohort
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
