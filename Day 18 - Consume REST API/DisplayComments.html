@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consume REST API</title>
+</head>
+
+    <script>
+        function getComments() 
+        {
+            var url = "https://jsonplaceholder.typicode.com/comments";
+
+                fetch(url)
+                    .then(incomingDataFormat=>incomingDataFormat.json())
+                    .then(resultData =>{
+                        //code to display the function
+                      //  alert('success');
+                       // console.log(resultData);
+                    
+                       var myTable = document.getElementById('table');
+                       for(var i = 0; i < resultData.length; i++)
+                       {
+                        myTable.innerHTML += "<tr><td>"+resultData[i].id+"</td><td>"
+                                     +resultData[i].name+"</td><td>"
+                                     +resultData[i].email+"</td><td>"
+                                     +resultData[i].body+"</td></tr>";
+                       }
+
+
+                    })
+                    .catch( errDetails =>{
+                        alert('Errorrr !!');
+                    })
+        }
+    </script>
+
+
+<body>
+    <h1> Display Comments</h1>
+    <button onclick="getComments()"> Comments </button> <table id="table" border="1">
+    </table>
+</body>
+</html>

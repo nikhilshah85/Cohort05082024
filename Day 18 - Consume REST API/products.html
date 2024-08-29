@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+
+<script>
+    function getProducts()
+    {
+        var url = "https://fakestoreapi.com/products";
+
+        fetch(url)
+        .then(incomingDataFormat => incomingDataFormat.json())
+        .then(result =>{
+
+                var tbl = document.getElementById('myproducts');
+                for(var i = 0; i < result.length; i++)
+                {
+                    tbl.innerHTML += "<tr><td>"+result[i].id+"</td><td>"+
+                        result[i].title+"</td><td>"+
+                        result[i].description+"</td><td>"+
+                        result[i].price+"</td></td>"+
+                        result[i].category + "</td></td><img src="+
+                        result[i].image + " style='width: 80px;height: 80px'></td></tr>";
+                }
+
+        }).catch( err =>{
+            console.log(err)
+        }
+        )
+    }
+</script>
+<body>
+    <button onclick="getProducts()"> Display Products</button>
+    <table id="myproducts"></table>
+</body>
+</html>

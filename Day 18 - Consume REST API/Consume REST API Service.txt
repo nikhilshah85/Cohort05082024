@@ -1,0 +1,29 @@
+				Consume REST API Service
+-------------------------------------------------------------------------------
+			     There are 2 approaches
+
+
+	1. JavaScript - Client side calls
+		we use fetch api (method) which is a standard of REST by W3C and ECMA
+			This api is built into every tool/technology which understands web
+			eg. Browsers, Mobile apps etc..
+
+			This is the fastest way to get the data 
+			Less secured, should not be used for scencetive data / clients personal data
+			eg. BankAccount,EmpDetails,CreditCardInfo etc...
+	can be used for open data to world, like FlightSchedule, CurrencyExchange,stock	Rates
+	sports data open to everyone etc..
+
+	2. HttpClient obj - Part of rest
+		we use this in programming, C#, Java, python, typescript, angular, MVC etc..
+		can be used even for console app, whereas fetch api will not work for console app
+			This is very secure, little bit slower than above 1 
+
+
+
+	------------------------------------------------------------------------------
+
+
+
+
+

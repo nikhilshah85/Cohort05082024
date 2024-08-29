@@ -10,6 +10,7 @@
         public bool ProductIsAvailable { get; set; }
         #endregion
 
+        //in memory collection of data
         static List<Products> products = new List<Products>()
         {
             new Products { ProductId = 1, ProductName = "Pepsi", ProductCategory = "Cold-Drink", ProductIsAvailable = true, ProductPrice = 50 },

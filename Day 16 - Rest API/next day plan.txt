@@ -1,0 +1,35 @@
+				
+
+
+		Lunch 13:15 - 14:15
+
+1. Go through and create an ProductsAPI project,
+	code it, test it 
+
+Task:
+2. create another API project - EmployeeManagementAPI
+	which will have employee class, with important properties
+		allow CRUD operations on this class
+		
+
+		Think of an many properties you can have
+		Think of as many methods you can add
+			This will allow you to think, plan, code, program
+			it will add a lot of logical pointers to your brain  / mind
+
+---------------------------
+Tomorrow
+
+1.API with Entity framework and SQL Server database
+2.Consume REST API 
+3. ASP.Net MVC Application
+
+
+
+
+
+
+
+
+
+
