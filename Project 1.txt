@@ -1,0 +1,51 @@
+					P1 - Rest API - Phase 1
+
+
+	Choose a Domain from below
+			EmployeeManagementAPI (EmployeeDetails,DeptDetails,SalaryDetails,LeaveDetails)
+			ShoppingAPI (ProductDetails, CustomerDetails,OrderDetails, CartDetails etc..)
+			FlightBookingAPI (FightDetails,PassenderDetails,PaymentDetails,BookingHistory)
+			OnLineLibrary(BookDetails, RequestRetails,BooksIssuedDetails..etc)
+			
+
+		1.every domain to have minimum of 5 tables, create relation between them where ever needed
+		2.take proper care and precaution of data, make sure we do not have invalid data coming	 			into the system
+		3. Use Proper Normalization
+		4. You should have 1 field, image mandatory in table
+		
+
+	allow CRUD operations - use EF Core 
+	
+
+use triggers in backend
+-------------------------	
+I am shareing a file, you put the details of which project(domain/subject) you are working on
+
+
+-------------------------------------------------------------------------------------------------------
+					P1 - Phase 2 - submission - friday
+
+	create a website - useing HTML, CSS and JavaScript for all the actions in your WebAPI 
+		for interactions
+
+		total number of pages will be = total number of actions you see on swagger
+
+	make sure all the pages are connected, display the data in table for GET methods
+					you will have forms for post, put and deletes
+
+	use fetch api for all the actions 
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+

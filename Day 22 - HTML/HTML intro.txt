@@ -1,0 +1,94 @@
+				             HTML
+
+				Hyper Text Markup language
+			--UI content development language
+			--understood by Browsers (IE, Chrome, Edge, Safari.....)
+			--Governed by W3C (World Wide Web consortium)
+			--text based language 
+			--W3C has defined tags for various visual (img, paragraph, videos, forms etc)
+			--developers writes this tags in < > -- triangle brackets
+			--browsers has an engine - called Parser which will interpret tags and show visuals
+		
+			--to beautify HTML, we use CSS (cascading stylesheet)
+			--to make HTML interactive with end users we use Javascript --> jquery
+		--we create an .html document to display visual and inside the document we write tags
+			--every document starts with <!DOCTYPE HTML>
+			--html document is divided in various sections
+
+			<html>
+				<head>
+					--information on how to load page
+				</head>
+					
+				<title> Home Page </title>
+				
+				<body>
+					--contents for visuals
+				</body>			
+			</html>
+	
+			--every tag will have an matching closing tag <h1> ... </h1>	
+									<p> ... </p>
+			--some tags does not have closeing tags,they are self closed like </br>
+			 <!-- for responsiveness -->
+----------------------------------------------------------------------------------------------------------
+				commonly used tags
+
+1. header - h1 to h6
+		<h1> Hello I am a header </h1> 
+	h1 is bigger than rest, then h2, then h3, then h4
+2. p - paragraph <p> ... </p>
+
+3. List tag
+	A. ordered list <ol> -- 1,2,3,4 or I,ii, iii, iv, or A,B, C, D, or a, b, c, d
+			1. Orages
+			2. Mangoes
+			3. Strawberry
+			4. Kiwi
+	b. unordered list<ul> -- bullets, square, circle
+		o Orages
+		o Mangoes
+		o Strawberry
+		o Kiwi
+4. Table tags - rows and columns
+5. Form Tag - Login Form, registration form, payment form, etc...
+6. image tag <img...>
+
+7. container tags- they contain more tags within them
+	when you want to create a section, u can use it
+	<div> 
+		<h1> ... </h1>
+		<p> .... </p>
+		<img.../>
+	<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

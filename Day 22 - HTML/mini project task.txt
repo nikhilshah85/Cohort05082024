@@ -1,0 +1,42 @@
+				Mini Project 
+
+	Create a Website - Which is your profile, with below pages
+
+make sure all the pages are connect and linked
+add more contents, make the website beautiful and presentable
+
+	Home.html  -- give an introduction to this website, like why does it exist, why did you make it
+			--what does it do, etc....
+			--and your photograph
+
+	Hobbies --- write in a paragraph something regarding your hobbies, they way you talk about it
+			write your hobbies in UL or OL
+
+	project and Skills -- design this page
+
+	contactme -- this will have a table
+			Home
+				address
+				Phone
+				email
+			Office 
+				address
+				Phone
+				email
+			Social
+				LinkedIn
+				facebook
+				twitter 
+				etc if any
+			form - user will fill in 
+				firstname
+				lastname
+				email
+				phone
+					submit button
+
+
+	
+
+	--take help of www.w3schools.com/html
+			

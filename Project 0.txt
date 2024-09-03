@@ -1,4 +1,4 @@
-					Project 0 - Phase 1
+					Project 0 
 		1. Individual Project
 		2. Console Application 
 		3. C# console app, using OOPS concepts, SQL Server as a backend, Entity Framework For 				integration
