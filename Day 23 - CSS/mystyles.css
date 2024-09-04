@@ -1,0 +1,22 @@
+p{
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+tr{
+ background-color: aquamarine;
+}
+
+h3{
+    color: orange;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    /* float:right; */
+    /* margin-left: 400px; */
+}

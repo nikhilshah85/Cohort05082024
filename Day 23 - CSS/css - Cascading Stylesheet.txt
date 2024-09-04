@@ -1,0 +1,44 @@
+				css - Cascading Stylesheet
+	
+	--This is to beautify web pages
+	-- used alon with HTML
+	--Syntax is simplest amoung all other languages
+		{selector:value}
+		selector - is the property of HTML content
+			eg - <h1>
+				has properties color, background-color, alignment etc..
+		{align:right}
+	-- There are 3 ways to apply an CSS / 3 types of stylesheet
+		1. inline stylesheet - used along with html tag with style attribute
+		<h1 style="color:red; align:right"> Hello </h1>
+			here the style apply only to this H1 tag
+
+		2. internal stylesheet, used with style tag below head tag
+
+		<style>
+			h1
+			{
+			  color:red;
+			  align:right
+			}
+		</style>
+			here this style will apply to all h1 tags in a page	
+
+		3. external stylesheet, we create a seperate file mystyle.css
+			h1
+			{
+			  color:red;
+			  align:right
+			}
+
+		when mystyle.css is linked to any page (5 pages) - all the h1 in all the 5 pages will have this style applied 
+			
+			
+
+
+		
+			
+
+		
+	
+		
