@@ -1,0 +1,106 @@
+Problem 1 	
+	As a developer we create lots of objects 
+		but we do not write any code to destroy the object
+		we do not use IDisposable, clear the memory, release the memory etc...
+
+	because we have been told there is a GC will come in and take care
+
+	but we do not know when, it has no fix time !!
+
+	but with todays web, this is not a good idea, we cannot wait for GC to come in and collect the resource
+
+	however, we can call GC manually, but this is manual
+
+-------- what is the solution ??
+problem 2
+	objects also need to be shared
+		a. between multiple request and response
+		b. between multiple users (static obj) - railways ticket chart
+
+	how do we take care of such object, 
+
+--------------------------
+To solve both the problems which exists around all the high famous technologies, we now have a concept called DI, where developer will not program any of above 2 things
+		ie. developer will not create any object (do not use new keyword)
+		    developer will not worry about shareing the object
+
+		both of this will be taken care by Runtime
+
+		
+		Dependency Injection is a global standard available with all the modern framework today
+		Angular, Java, springboot,React,ASP.Net WebAPI etc....
+		to utilize this
+
+
+		1 .create a new variable of the class you want an object be of 
+			 Products pObj = new Products(); //very bad code, use DI instead  -- Wrong
+
+			instead,
+			 Products _pObj; (naming convention, use _ for di object types) 
+
+						//obj created by runtime and reference passed here	
+			public ProductsController(Products _pObjREF)
+			{
+						//reference now captured by our variable
+				_pObj = _pObjREF;
+			}
+		   //when you have constructor, you need step 2 else error
+	           // _pObj = _pObjREF; can also be written in any other method if needed or in any 				property if needed, but the constructor parameter be the same in other method
+
+		2. we need to decide the lifetime of an object - there are 3 cases/methods available
+
+			a. AddTranscient - this is like per call
+					user makes a request, goes to server, server will create a new object, process the request, release the response and destroy the object
+			new request, new object 
+
+
+			b. AddScoped - this is like per session
+				user starts a new session, object is created, same obj is used for multiple request and response, user logs out or session times out, closed the browser, 
+				server will destroy the object (100 session - 100 objs)	
+
+			c. AddSingleTon - this is application state 
+when server stars, object gets created, when server stops, object is destroyed(mostly used for static data)
+
+
+	---which method is recommended for which kind of objects
+
+		a. AddTranscient - this is for the data which is highly unstatic, eg. Stock market rates,
+											CurrencyExchange
+
+		b. AddScoped - when user will have their own personal data, not shared between multiple 				users	eg. bank account login
+
+		c. AddSingleTon - when same data is to be shared with all the users, eg. cricket schedule, 											flightSchedule etc.
+				more of static data less amount of concurrency here, although you can still perform CRUD here if developer has written methods, else developer should avoid writing methods for add, update and delete
+					
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+

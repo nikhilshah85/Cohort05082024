@@ -1,0 +1,14 @@
+Fullstack
+	Frontend
+		ASP.net MVC
+		Angular
+		React
+		HTML,CSS, JavaScript, JQuery
+	
+	middleware
+		REST API / WebAPI (JSON based data exchange)
+		WebServices (SOAP Based data exchange)
+
+	Backend	
+		RDBMS - MySQl/Db2/SQL Server / Oracle 
+		NoSQL - MongoDB
