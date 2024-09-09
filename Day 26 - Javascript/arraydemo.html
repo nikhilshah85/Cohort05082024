@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+
+<script>
+
+    var technologies = ["HTML", "CSS", "JS", "jQuery"];
+
+    function showTechList() {
+        var techlist = document.getElementById("techlist");
+        for(var i = 0; i < technologies.length; i++) {
+            techlist.innerHTML += "<li>" + technologies[i] + "</li>";
+        }
+    }
+
+    function addNewTechnology()
+    {
+        var newTech = document.getElementById("newtech").value;
+        technologies.push(newTech);
+        document.getElementById("techlist").innerHTML = "";
+        showTechList();
+    }
+</script>
+<body onload="showTechList()">
+
+    <ul id="techlist">
+    </ul>
+    <input type="text" placeholder="Enter New Technology" id="newtech"/>
+    <button onclick="addNewTechnology()"> Add Tech </button>
+</body>
+</html>

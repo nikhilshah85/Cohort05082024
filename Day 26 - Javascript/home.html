@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Javascript Program</title>
+</head>
+
+<script>
+    function greetUser()
+    {
+        alert("Hello User");
+    }
+
+    function addNumbers()
+    {
+        //var addition = num1 + num2;
+        //alert(addition);
+        //return addition;
+
+        n1 = document.getElementById("txtnum1").value;
+        n2 = document.getElementById("txtnum2").value;
+        addition = parseInt(n1) + parseInt(n2);
+        document.getElementById("result").innerHTML = addition;
+        //(addition);
+    }
+</script>
+
+<body>
+        <button onclick="greetUser()">Click Me !!</button>
+        <br/>
+        <input type="number" id="txtnum1" placeholder="Please Enter First Number"/>
+        <input type="number" id="txtnum2" placeholder="Please Enter Second Number"/>
+        <br/>
+        <button onclick="addNumbers()" style="margin-left: 700px;"> Add </button>
+
+            <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+

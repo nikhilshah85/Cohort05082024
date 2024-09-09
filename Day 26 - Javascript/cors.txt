@@ -1,0 +1,21 @@
+if we have 10 controllers and each controller has 5 action methods (50 methods in all)
+
+	we have different clients to whom data has to be given access to 
+
+	1st client can have access only to first 3 controllers
+		in that only GET and PUT part
+			post and delete not allowed 
+
+
+	2nd client, can access all the controllers but only get methods, no other methods
+
+
+	3rd client, can access 4th and 5th controller completely with all the methods
+
+
+		Thus we create different cors policies in program.cs
+
+------------
+1. install cors nuget
+
+

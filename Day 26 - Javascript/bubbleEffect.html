@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Effect</title>
+</head>
+
+<script>
+    function bubbleEffect() 
+    {
+        alert('Hello and welcome to bubble effect' + " " + event.target);
+    }
+
+    function greetUser()
+    {
+        alert('Hello I am another event');
+    }
+    function thirdFunction()
+    {
+        alert('Hello I am third function');
+    }
+    
+    function fourthFunction()
+    {
+        alert('Hello I am fourth function');
+    }
+</script>
+<body>
+
+    <h1> Bubble Effect</h1>
+<div onclick="bubbleEffect()" style="background-color: bisque;"
+     ondblclick="greetUser()" 
+     onmouseenter="thirdFunction()"
+     onmouseleave="fourthFunction()" >
+
+
+    <h1> I am a Header, dont click me</h1>
+    <p onclick="event.stopPropagation()"> I am a Para not to be clicked </p>
+    <button onclick="event.stopImmediatePropagation()"> Click Me </button>
+
+    <div>
+        <h3> I am inside another div</h3>
+    </div>
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+function downloadMyFiles()
+{
+	var something = "....."
+	var url = "https://www.microsoft.com/sqlserver/2012/sqlexpress" --200 mb - 120 sec
+	var num1  = 20; //if this is to be taken from txtbox - ui will be freezed
+	var num2 = 30;
+	var result = num1 + num2;
+	document.getElementById("result").innerHTML = result;
+	
+	var videoUrl = "https://www.youtube.com/microsoft/dotnetcore"
+
+	document.getElementById("vdeo").src = videoUrl;
+
+}
+
+---what happens with js or even C#, they are procedure execution (line by line)
+
+--here user will have to wait till the 200mb file gets downloaded
+
+	to solve this problem we have asyn and await (asynchronous programming)
+
+		the code will keep execution, and it users ui does not have to be freezed 
+		processing is done in chunk 
+ 
+
+		make ur methods asyn and use await for the method to complet and capture the result

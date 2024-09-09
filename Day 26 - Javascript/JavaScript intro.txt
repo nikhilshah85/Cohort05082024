@@ -1,0 +1,22 @@
+			JavaScript
+-----------------------------------------------------------
+		For client side
+
+1. Calculations
+2. Validations
+3. (dynamic) Formatting
+4. Make rest api calls
+5. Submitting data/content on server
+	POST, DELETE, PUT, GET
+
+make interactive pages 
+
+with HTML
+u can add beauty with CSS
+u can add brain with JavaScript
+------------------------------------
+JS is a non compiled language - it is a standard by W3C
+		all the browsers has to support it
+it is case scencetive
+
+	we use it in <script>

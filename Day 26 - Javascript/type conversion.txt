@@ -1,0 +1,18 @@
+Type Conversion
+
+
+Type casting 
+
+Coercion -- when internally done by JS engine
+	var add = "hello " + 22
+
+	this will internall convert 22 to a string and return
+			hello22
+
+(c# would have given a compile error)
+
+
+
+Conversion -- when done by developer
+ addition = parseInt(n1) + parseInt(n2);
+
