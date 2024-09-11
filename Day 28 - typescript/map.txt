@@ -1,0 +1,5 @@
+we use map function, to iterate(loop over) the arrays
+
+map is an ES function, which performs internal looping
+
+it is similar to foreach loop in C#

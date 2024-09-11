@@ -1,0 +1,97 @@
+
+				C# - with OOPS
+				SQL 
+				Entity Framework
+				REST API
+				HTML, CSS and JS
+
+
+
+	.Net - Microsoft  - ASP.net Core for front end development - MVC - Model View Controller
+				language used -- C# - OOPS based
+
+
+	React - Facebook - Component Based Development -- all you think and develop here is a component
+	Angular - Google - Component Based Development --  all you think and develop here is a component
+
+			language used -- ES6 -- OOPS added to JavaScript
+			Ecma Script 6 and 7 -- they added OOPS to JavaScript and named it as ECMAScript
+
+				it is a very difficult language to learn and use for developers coming from 
+				C# and Java, C++ background
+
+		Microsoft came forward, made it easy to program ES by making it look like C# and Java
+			it applied an wrapper on ES6 and called it as Typescript
+
+		we use typescript for react and angular development, 
+		--developer writes syntax in typescript and when you compile, it generates ES
+
+	Bootstrap - twitter 
+
+
+		
+
+				REACT - this is a front development framework 
+		(an ecosystem which allows us to create, build, test and run the application - front end)
+
+					
+To use TS, React, Angular we need to download and install Node
+
+what is Node - node is a webserver, compiler, and a development tool which runs on every operating system
+	and is considered very super fast, build on V8 engine used by google chrome
+		NODE IS BY GOOGLE
+
+------------------------------------------------------------------------------------------------------------			Web Applications  - MVC is designed for server centric
+
+	1. Server centric- most of the processing, calculations, validations, formatting, encryption, decryption, etc... state management, caching 
+		this is for sensitive applications like banks, insurance, airlines etc.
+
+
+
+	component based development is designed for client centric apps
+	
+	2. Client centric - most of the functionality is done on the client side, download the content on 
+			the client app/devise and do the processing, make content available to them
+			even when internet is slow or not available (eg. games, whatss app, Instagram, facebook, discord, shopping app amazon)
+
+
+			react is designed to handle client centric apps - UI based
+			angular is a combination of both, client and server centric
+
+	fyi -- in MVC,
+		Model  
+		View -- u can use react here 
+		Controller 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+

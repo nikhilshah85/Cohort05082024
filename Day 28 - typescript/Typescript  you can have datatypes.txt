@@ -1,0 +1,14 @@
+Typescript : you can have datatypes
+
+number 
+Boolean
+string
+date
+any (when you do not know the data type, use any, and it will do implicit typecast)
+
+
+--------------
+you have classes, inheritance, interface, OOPS
+
+
+npm install -g create-react-app

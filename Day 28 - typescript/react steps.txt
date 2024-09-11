@@ -1,0 +1,8 @@
+1. download react boiler plate
+	npm install create-react-app
+
+2. create a new application using react
+	create-react-app helloworld
+
+3. run the app in react folder
+	npm start
