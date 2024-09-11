@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Litrals</title>
+</head>
+
+<script>
+    const person = {
+        name: "John",
+        age: 30
+    }
+
+   const accountInfo ={
+    accNo : 101,
+    accName: "Nikhil",
+    accType:"Savings",
+    accBalance: 10000,
+
+    withdraw(amount){
+        this.accBalance = this.accBalance - amount;
+        alert("Amount withdrawn successfully, new balance " + this.accBalance);
+    },
+
+    deposit(amount){
+        this.accBalance = this.accBalance + amount;
+        
+        alert("Amount deposited successfully, new balance " + this.accBalance);
+    }
+
+   }
+   
+    function displayValues() 
+    {
+            console.log(person.name);
+            console.log( person.age);
+    }
+
+   function displayAccounts()
+    {
+        console.log(accountInfo);
+        document.getElementById("demo").innerHTML = accountInfo.accName;
+    }
+
+
+
+</script>
+<body>
+   <button onclick="displayAccounts()">Display Values</button>
+
+   <button onclick="accountInfo.withdraw(3000)">Withdraw</button>
+   <button onclick="accountInfo.deposit(8000)">Deposit</button>
+
+   <h4 id="balance">  </h4>
+   <p id="demo"> </p>
+</body>
+</html>

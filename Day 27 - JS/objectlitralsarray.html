@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<script>
+    const productList = [{pId:101, pName:'Pepsi',pPrice:20.0},
+                         {pId:102, pName:'Coke',pPrice:30.0},
+                         {pId:103, pName:'Sprite',pPrice:40.0},
+                         {pId:104, pName:'Fanta',pPrice:50.0},
+                         {pId:105, pName:'Lipton',pPrice:60.0},
+                         {pId:106, pName:'Mirinda',pPrice:70.0},
+                         {pId:107, pName:'Dew',pPrice:80.0},
+                         {pId:108, pName:'Mountain Dew',pPrice:90.0},
+                         {pId:109, pName:'Thumps Up',pPrice:100.0}];
+
+    function displayProducts()
+    {
+        const table = document.getElementById("tblProducts");
+        for(let i=0;i<productList.length;i++)
+        {
+            const row = table.insertRow();
+            const cell1 = row.insertCell();
+            const cell2 = row.insertCell();
+            const cell3 = row.insertCell();
+            cell1.innerHTML = productList[i].pId;
+            cell2.innerHTML = productList[i].pName;
+            cell3.innerHTML = productList[i].pPrice;
+        }
+    }
+
+
+</script>
+<body>
+    <button onclick="displayProducts()">Display Products</button>
+    <table border="1" id="tblProducts">
+        </table>
+</body>
+</html>

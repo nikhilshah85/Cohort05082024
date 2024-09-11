@@ -1,0 +1,20 @@
+
+
+<script>
+	"use strict";
+	function hello()
+	{
+		username = "Nik"; //error 
+		console.log('Hello ' + username);
+		username = "Drew";
+	}
+
+</script>
+
+fetch(responseType => responseType.json())
+fetch(declareReponseType())
+
+function declareReponseType()
+{
+	return json();
+}

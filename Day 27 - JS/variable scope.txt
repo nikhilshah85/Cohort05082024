@@ -1,0 +1,41 @@
+<script>
+"use strict"
+	
+	var username = "Nikhil"; //global variable
+
+	function fun1()
+	{
+		
+		var lastName = "Shah";  //local variable to a function
+
+			if(username == 'Nikhil' && lastName == 'Shah')
+			{
+				//var myvariable = 10;  //in case if we do not want this variable to be used
+							//outside if block, we can use let
+
+				let myvariable = 10; //local variable to a block
+				var city = 'Mumbai';
+			}
+			var test = 01;
+			myvariable = myvairable * 20;
+			return 'Hello '+ username;
+	}
+
+		var myage = 25;
+		var yourage;
+	
+	function fun2()
+	{
+		return 'Hello 2 '+ username;
+	}
+
+	
+	function fun3()
+	{
+		username = "Nikhil Shah";
+		return 'Hello '+ username;
+	}
+
+
+
+</script>

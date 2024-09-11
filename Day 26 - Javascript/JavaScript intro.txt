@@ -20,3 +20,19 @@ JS is a non compiled language - it is a standard by W3C
 it is case scencetive
 
 	we use it in <script>
+
+
+JavaScript does not have datatypes
+	(no int, string, double, bool, decimal etc..)
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+ECMA Script
+
+	European computer manufacturing association
+
+
+	'
+	"
+	` (template litral)
+
+	var message = 'Hello I am 
+			Nikhil Shah';  --error 
+
+
+	var message = "Hello I am " +
+		"Nikhil Shah";  --error 
+
+
+	var message = `Hello I am 
+			Nikhil Shah`;  
+
+	
