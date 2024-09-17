@@ -1,0 +1,29 @@
+1. Read through w3schools
+	HTML - https://www.w3schools.com/html/default.asp
+	CSS - https://www.w3schools.com/css/default.asp
+	JS - https://www.w3schools.com/js/default.asp
+	React - https://www.w3schools.com/react/default.asp
+
+	Make notes while reading (so u can refer the same during client interview again
+				also very useful for cumulative QC)
+
+	make a note in an shared excel file, add 4 sheets there 1 for each topic
+
+2. Go through the portal and collect the points and phase an answer for them 
+	frame an crisp answer
+	eg. Promises in javascript or type coercion
+
+	what is it ?
+	Why is it
+	when to use / when is it used
+	how to use ?
+	where to use / where is it used ?
+
+	what problem does it solve
+
+3. Open the Word Doc which was shared with you - infy questions
+	go to section, read the question and make sure you have an answer to it
+---------------------------------------------------------------------------------------------------
+
+
+	

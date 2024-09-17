@@ -1,0 +1,23 @@
+App{	
+	const [rateofintrest,setRate] = useState(5.7);
+	<Home roi={rateofintrest}> </Home>
+
+}
+
+Home{
+
+	<About roi = {roi}></About>
+}
+
+About{
+	<Contact roi={roi}></Contact>
+}
+
+Contact{
+	<Loan roi={roi}> </Loan>
+}
+
+Loan{
+	<h1> { roi }</h1> --want to display rateofintrest,declared in App
+	
+}

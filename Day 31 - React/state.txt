@@ -1,0 +1,9 @@
+state and props
+
+state is a container
+props is used to pass the data
+
+
+state can change
+props are read only - they are immutable, you cannot change the value but when value in 
+	a state changes, it gets updated

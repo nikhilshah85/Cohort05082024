@@ -1,0 +1,56 @@
+						React
+	--This is a client centric web development framework by Facebook - mostly got popular for developing
+			--SPA application 
+				--Single Paged Applications
+				react eco system provides you concept of Routing to configure SPA
+	
+
+	--React used ES6 for development
+	-- We create components in react
+		--there are 2 types of components
+			functional / function based component -- js syntax
+			class based component                 -- ts systax 
+
+	-- What makes you a react developer
+		a. component development
+		b. props and states (this is to do with data management between components) 
+					component communication 		
+		c. Hooks (introduced in react version 16) -- for functional component to make developers
+				life easy 
+		d. make api calls / consume rest api - fetch 
+		e. refs, keys etc..
+		f. SPA - routing
+
+------------------------------------------------------------------------------------------
+
+	Functional based component
+		return()
+		{
+			//can return you only 1 block
+		}
+
+
+----------------------------------------------------------
+		Data in react
+	--we have state as a container which is responsible to hold all the data for the application
+	--it will collect data using rest api calls, in background which application starts to load on user devise
+
+	--states will pass the data to childrens using a concept called props
+	--data in react flows from top to bottom and not bottom to top 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

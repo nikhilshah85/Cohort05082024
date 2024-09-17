@@ -1,0 +1,33 @@
+1. Close the current application
+2. Create a new application shoppingapp
+3. in the app.js, create an object array of product with below properties
+		pid, pName, pCatergory, pPrice, pisAvailable, pUser 
+			for pUser mention only 'Male' or female or Kids
+
+		add, a minimum of 18 products and have randomly allocated values for 			pUser
+
+4. Create 3 components, Male, Female and Kids, inject them in App.js
+
+---------------------------------------------------------------------------
+(I will show this)
+			Above is skeleton
+
+	we will write functions, which will send male products to Male component
+						female products to female component
+						kids products to kids component
+			using props 
+
+Reference for createing the array
+  accountList = [
+        {accNo:101, accName:'Nik',accType:'Savings',accBalance:10000,accIsActive:true},
+        {accNo:102, accName:'Alex',accType:'Savings',accBalance:20000,accIsActive:true},
+        {accNo:103, accName:'Rommy',accType:'Checking',accBalance:40000,accIsActive:false},
+        {accNo:104, accName:'Micheal',accType:'Savings',accBalance:10000,accIsActive:true},
+        {accNo:105, accName:'Jordan',accType:'Savings',accBalance:7000,accIsActive:true},
+        {accNo:106, accName:'Ben',accType:'Savings',accBalance:900,accIsActive:true},
+        {accNo:107, accName:'Mary',accType:'Savings',accBalance:12000,accIsActive:false},
+        {accNo:108, accName:'Elena',accType:'Checking',accBalance:80000,accIsActive:true},
+        {accNo:109, accName:'Taylor',accType:'Savings',accBalance:1000,accIsActive:true},
+        {accNo:110, accName:'Sara',accType:'Savings',accBalance:100,accIsActive:false},
+        {accNo:111, accName:'Alex',accType:'Checking',accBalance:40000,accIsActive:true},
+    ]

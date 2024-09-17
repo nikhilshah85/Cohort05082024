@@ -1,0 +1,15 @@
+Create a new react app - with routing and it should have below components
+
+
+Home - just display a H1 - welcome to My React SPA APP - YourName 
+Post - https://jsonplaceholder.typicode.com/posts
+Comments - https://jsonplaceholder.typicode.com/comments
+Products - https://fakestoreapi.com/products
+Orders - https://fakestoreapi.com/carts
+Image Of the day - https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+
+
+makesure it is a routing app
+
+for making api calls, create a custom hook 
+
