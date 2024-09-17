@@ -1,0 +1,51 @@
+				P2 Project - Group Project
+		
+	Expectations : To build team player qualities 
+				helping each other, 
+				responsible, 
+				team player, 		
+				distribution of work / task, 
+				planning, 
+				active contribution, 
+				finding and suggesting solutions to problems)
+
+			Innovative 
+----------------------------------------------------------------------------------------------------------
+			4 Projects 
+
+1. we will create teams randomly with excel
+		team will choose the domain (eg. Book store, restautant, cab booking, online shopping etc..)
+
+
+		Project to be a 3 tier archicture
+
+		1. Backend - database - (SQL Server - create locally and then move it to cloud)
+		2. Middleware - REST API - EF core with sql server - database first approach
+		3. Frontend - React
+
+2. Create a single paged application, which looks to be a real world implementation
+3. think of basic features the app should have
+	eg. for a book store
+		view list of books, search a book, request a book, rent a book, buy a book, order a book etc
+
+4. try to create a very impressive UI - look and feel 
+	
+5. You will have to present it in the end along with PPT - you have already seen some presentations
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
